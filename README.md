@@ -120,7 +120,7 @@ index.js->app/index.js //阅读app/index.js,就可以了解到app最先进入的
 
 只放了客户端效果，加载较慢，或者直接查看preview_client.gif（因为gif图较大压缩质量太差）。
 
-（**如果喜欢记得右上角star⭐，谢谢！！！**）
+（**这原是我的创业项目，可惜没有足够资本和资源去上线运营，希望有人可以做这件事虽然不是我，也希望可以帮助到大家学习react-native和GatewayWorker框架，如果喜欢记得到右上角star⭐，谢谢！！！**）
 
 [我的博客](https://www.jianshu.com/u/381f46e0b8a7)
 
