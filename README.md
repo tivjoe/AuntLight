@@ -21,7 +21,7 @@
 
 # 部署
 
-## 数据库部署
+## 数据库部署(mysql)
 
 * auntlight_structuer_and_data.sql 数据库结构+测试数据
 * auntlight_structuer.sql 只有数据库结构
@@ -66,7 +66,7 @@
 
 ~~~
 
-## APP部署
+## APP部署(client,seller,delivery)
 
 * 请参考[React-Native](https://reactnative.cn/)，配置环境。
 
@@ -124,4 +124,4 @@ index.js->app/index.js //阅读app/index.js,就可以了解到app最先进入的
 
 [我的博客](https://www.jianshu.com/u/381f46e0b8a7)
 
-![conv_ops](http://cdn.kuailefn.xyz/a.gif)
+![image](http://cdn.kuailefn.xyz/a.gif)
