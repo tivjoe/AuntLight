@@ -1,0 +1,11 @@
+{
+    "name"  : "workerman/gateway-worker-demo",
+    "keywords": ["distributed","communication"],
+    "homepage": "http://www.workerman.net",
+    "license" : "MIT",
+    "require": {
+        "workerman/gateway-worker" : ">=3.0.0",
+        "qiniu/php-sdk": "^7.2",
+        "workerman/mysql": "^1.0"
+    }
+}

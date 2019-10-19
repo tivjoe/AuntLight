@@ -1,0 +1,179 @@
+[
+    {
+        "name": "qiniu/php-sdk",
+        "version": "v7.2.7",
+        "version_normalized": "7.2.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/qiniu/php-sdk.git",
+            "reference": "88d11a5857ebc6871204e9be6ceec54bf5f381e6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/qiniu/php-sdk/zipball/88d11a5857ebc6871204e9be6ceec54bf5f381e6",
+            "reference": "88d11a5857ebc6871204e9be6ceec54bf5f381e6",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0",
+            "squizlabs/php_codesniffer": "~2.3"
+        },
+        "time": "2018-11-06T13:34:32+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Qiniu\\": "src/Qiniu"
+            },
+            "files": [
+                "src/Qiniu/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Qiniu",
+                "email": "sdk@qiniu.com",
+                "homepage": "http://www.qiniu.com"
+            }
+        ],
+        "description": "Qiniu Resource (Cloud) Storage SDK for PHP",
+        "homepage": "http://developer.qiniu.com/",
+        "keywords": [
+            "cloud",
+            "qiniu",
+            "sdk",
+            "storage"
+        ]
+    },
+    {
+        "name": "workerman/gateway-worker",
+        "version": "v3.0.12",
+        "version_normalized": "3.0.12.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/walkor/GatewayWorker.git",
+            "reference": "c206ec41e21f092055d1ddd3ee296895fc004cb5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/walkor/GatewayWorker/zipball/c206ec41e21f092055d1ddd3ee296895fc004cb5",
+            "reference": "c206ec41e21f092055d1ddd3ee296895fc004cb5",
+            "shasum": ""
+        },
+        "require": {
+            "workerman/workerman": ">=3.1.8"
+        },
+        "time": "2018-08-21T06:17:30+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GatewayWorker\\": "./src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "homepage": "http://www.workerman.net",
+        "keywords": [
+            "communication",
+            "distributed"
+        ]
+    },
+    {
+        "name": "workerman/mysql",
+        "version": "v1.0.5",
+        "version_normalized": "1.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/walkor/mysql.git",
+            "reference": "34ac7b3986294197c0fe8142fa450abfebdad779"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/walkor/mysql/zipball/34ac7b3986294197c0fe8142fa450abfebdad779",
+            "reference": "34ac7b3986294197c0fe8142fa450abfebdad779",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pdo": "*",
+            "ext-pdo_mysql": "*",
+            "php": ">=5.3"
+        },
+        "time": "2018-03-06T06:20:23+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Workerman\\MySQL\\": "./src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Long-living MySQL connection for daemon.",
+        "homepage": "http://www.workerman.net",
+        "keywords": [
+            "mysql",
+            "pdo",
+            "pdo_mysql"
+        ]
+    },
+    {
+        "name": "workerman/workerman",
+        "version": "v3.5.16",
+        "version_normalized": "3.5.16.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/walkor/Workerman.git",
+            "reference": "b374bb86f9dae74bf373e924173a891eb6435c7a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/walkor/Workerman/zipball/b374bb86f9dae74bf373e924173a891eb6435c7a",
+            "reference": "b374bb86f9dae74bf373e924173a891eb6435c7a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "suggest": {
+            "ext-event": "For better performance. "
+        },
+        "time": "2018-11-18T06:16:58+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Workerman\\": "./"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "walkor",
+                "email": "walkor@workerman.net",
+                "homepage": "http://www.workerman.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "An asynchronous event driven PHP framework for easily building fast, scalable network applications.",
+        "homepage": "http://www.workerman.net",
+        "keywords": [
+            "asynchronous",
+            "event-loop"
+        ]
+    }
+]

@@ -1,0 +1,11 @@
+rootProject.name = 'iosdeliverry'
+include ':react-native-fast-image'
+project(':react-native-fast-image').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fast-image/android')
+include ':react-native-wxtip'
+project(':react-native-wxtip').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-wxtip/android')
+include ':@react-native-community_async-storage'
+project(':@react-native-community_async-storage').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-community/async-storage/android')
+include ':react-native-gesture-handler'
+project(':react-native-gesture-handler').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-gesture-handler/android')
+
+include ':app'
