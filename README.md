@@ -118,7 +118,7 @@ index.js->app/index.js //阅读app/index.js,就可以了解到app最先进入的
 
 # 预览
 
-只放了客户端效果（因为gif图较大压缩质量太差）。
+只放了客户端效果，加载较慢，或者直接查看preview_client.gif（因为gif图较大压缩质量太差）。
 
 （**如果喜欢记得右上角star⭐，谢谢！！！**）
 
