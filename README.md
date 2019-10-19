@@ -124,4 +124,4 @@ index.js->app/index.js //阅读app/index.js,就可以了解到app最先进入的
 
 [我的博客](https://www.jianshu.com/u/381f46e0b8a7)
 
-![Alt Text](https://media.giphy.com/media/UTdtFlsxzCzSo5NLQH/giphy.gif)
+![avatar](https://media.giphy.com/media/UTdtFlsxzCzSo5NLQH/giphy.gif)
