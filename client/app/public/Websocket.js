@@ -2,37 +2,6 @@
 import { ServerControl } from './ServerControl';
 import { Alert } from 'react-native';
 import {WXTip} from 'react-native-wxtip';
-/**
- * 请求对照表
- * @param array message {
- * @param int ['client']->0 客户端
- * @param int ['action']->0 登录
- *                      ->1 注册
- *                      ->2 忘记密码
- *                      ->3 短信验证码
- *                      ->4 获取地址
- *                      ->5 添加地址
- *                      ->6 修改地址
- *                      ->7 删除地址
- *                      ->8 获取商家
- *                      ->9 获取商品
- *                      ->10 获取用户的基本信息
- *                      ->11 更改头像
- *                      ->12 更改昵称
- *                      ->13 获取商家评价
- *                      ->14 添加一个喜欢的商家
- *                      ->15 取消一个喜欢的商家
- *                      ->16 获取所有喜欢的商家
- *                      ->17 获取商家活动
- * @param array ['data']  ->提交的数据
- * }
- * 返回的数据格式
- * @param array data{
- *            @param int action  请求的当前业务参数
- *            @param int status  请求结果状态
- *            @param array data  返回的数据（不是所有请求都返回data）
- * }
-*/
 
 let ws = null;
 let setIntervalPing = null;
